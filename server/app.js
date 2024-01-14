@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 const userRouter = require('./routers/users');
 const cardRouter = require('./routers/cards');
-const port = 5000;
+const port = 3001;
 const cors = require('cors');
 require('./dal/dal');
 
