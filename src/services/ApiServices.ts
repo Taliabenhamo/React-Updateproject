@@ -4,7 +4,7 @@ import { CardProps } from '../interface/Card';
 import { User } from '../interface/User';
 import { getToken } from '../auth/TokenManager';
 
-const serverUrl = 'http://localhost:5000/api/';
+const serverUrl = 'http://localhost:3001/api/';
 const userUrl = `${serverUrl}users/`;
 const cardUrl = `${serverUrl}cards/`;
 
